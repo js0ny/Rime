@@ -37,7 +37,6 @@ init:
     just set_remote
     just clone_plum
 
-[private]
 clone_plum:
     cd {{local}} && git clone https://github.com/rime/plum.git --depth=1
 
