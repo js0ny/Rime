@@ -21,7 +21,6 @@ default:
 test:
     echo {{local}}
     echo {{rime_install}}
-    echo {{pm}}
 
 update:
     cd {{local}}/plum && {{rime_install}} plum && {{rime_install}} iDvel/rime-ice:others/recipes/cn_dicts
