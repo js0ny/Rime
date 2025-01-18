@@ -62,3 +62,11 @@ gone	gone
 Go程	gocheng
 code	code
 SOHO	soho
+
+F#	fs
+ASP.NET	aspnet
+Operational Amplifier	opamp
+Op. Amp.	opamp
+GNU/Linux	linux
+LTspice	ltspice
+EndeavourOS	eos

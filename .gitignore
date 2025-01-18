@@ -1,9 +1,14 @@
 build
 *.userdb
+*.userdb*
 
 installation.yaml
 user.yaml
 
 .DS_Store
 
-custom
+custom_phrase_double.txt
+
+deactivated
+
+sync

@@ -458,10 +458,7 @@ cn_en:
 # 自定义短语
 custom_phrase:
   dictionary: ""
-  user_dict:
-    - custom_phrase_double # 需要手动创建 custom_phrase_double.txt 文件
-    - custom_phrase # 全拼短语
-    - personal_phrase # 个人短语
+  user_dict: custom_phrase_double # 需要手动创建 custom_phrase_double.txt 文件
   db_class: stabledb
   enable_completion: false # 补全提示
   enable_sentence: false # 禁止造句

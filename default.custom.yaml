@@ -3,3 +3,6 @@
 patch:
   menu/page_size: 9
   switcher/caption: 「方案選單」
+  key_binder/bindings:
+    - { when: composing, accept: bracketleft, send: Page_Up }
+    - { when: composing, accept: bracketright, send: Page_Down }
