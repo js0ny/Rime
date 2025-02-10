@@ -34,7 +34,7 @@ pull:
     git pull codeberg master
 
 init:
-    just set_remote
+    just install_rime
     just clone_plum
 
 clone_plum:

@@ -1,0 +1,70 @@
+* Rime Config
+
+个人使用的 Rime 配置文件，支持目前已支持 Windows (Weasel 小狼毫), macOS (squirrel 鼠须管), Linux (后端 fcitx5)，计划更新 Android (同文) 和 iOS (仓输入法) 的「键盘配列」
+
+基于 /Colemak/ 键盘配列配置，但其实输入法没太大影响
+
+词库来源于 [[https://github.com/iDvel/rime-ice][iDvel/rime-ice]]，删减了一些个人不用的部分
+
+默认（启用）配置方案：
+
+- 雾凇拼音
+
+- 自然码双拼
+
+
+** 使用
+
+将配置克隆到本地
+
+#+begin_src shell
+git clone https://github.com/js0ny/Rime.git ~/.local/share/fcitx5/rime # GNU/Linux
+git clone https://github.com/js0ny/Rime.git ~/Library/Rime # macOS
+#+end_src
+
+
+#+begin_src powershell
+git clone https://github.com/js0ny/Rime.git $Env:APPDATA\Rime # Windows
+#+end_src
+
+
+如果 ~just~ 已经安装，则可使用 ~just~ 进行进一步操作，如果没有安装，也可以自行参考 ~Justfile~ 里面的内容
+
+
+#+begin_src shell
+# 如果 Rime 没有安装
+just install_rime
+# 如果 plum （东风破） 没有安装
+just clone_plum
+# 如果都没有，则可以
+just init
+#+end_src
+
+注意：对于 GNU/Linux，​~just install_rime~​和​~just init~ 仅支持 Arch-Based Distro，对于 Windows，需要 Windows Package Manager(~winget~) 在 Windows 11 下已经自带，对于 macOS，需要 ~brew~
+
+For Ubuntu/Kali
+
+#+begin_src shell
+sudo apt install fcitx5-rime
+#+end_src
+
+
+** 更新
+
+使用
+
+#+begin_src shell
+just update
+#+end_src
+
+来更新词库
+
+** 未来计划？
+
+加入自然音形
+
+加入同文输入法与仓输入法的 Colemak 键盘配置
+
+加入方言输入法
+
+加入更可行的键盘键位（减少与常用软件的冲突）
