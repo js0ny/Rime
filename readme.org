@@ -1,3 +1,8 @@
+* ARCHIVE
+
+已经完全转移到 [[https://github.com/amzxyz/rime_wanxiang][amzxyz/rime_wanxiang]]
+
+
 * Rime Config
 
 个人使用的 Rime 配置文件，支持目前已支持 Windows (Weasel 小狼毫), macOS (squirrel 鼠须管), Linux (后端 fcitx5)，计划更新 Android (同文) 和 iOS (仓输入法) 的「键盘配列」
